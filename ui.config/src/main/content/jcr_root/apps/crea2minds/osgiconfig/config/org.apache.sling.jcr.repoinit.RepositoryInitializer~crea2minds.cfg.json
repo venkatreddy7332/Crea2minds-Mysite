@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/crea2minds",
+        "create path (nt:unstructured) /content/dam/crea2minds/jcr:content",
+        "set properties on /content/dam/crea2minds/jcr:content\n  set cq:conf{String} to /conf/crea2minds\n  set jcr:title{String} to \"Crea2minds\"\nend"
+    ]
+}
