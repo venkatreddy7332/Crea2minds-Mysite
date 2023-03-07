@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-06T19:13:37.770+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/crea2minds/settings/wcm/templates/crea2minds-experience-fragment-template"
+        cq:xfMasterVariation="{Boolean}true"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="footer"
+        sling:resourceType="crea2minds/components/page">
+        <root
+            jcr:lastModified="{Date}2023-03-06T17:58:06.401+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <title
+                jcr:created="{Date}2023-03-06T18:50:10.894+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-06T18:50:46.854+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="My footer"
+                sling:resourceType="crea2minds/components/title"
+                linkTarget="_blank"
+                linkURL="/content/crea2minds/us/en/homepage"
+                type="h2">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </title>
+            <responsivegrid
+                jcr:created="{Date}2023-03-06T18:52:54.761+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-06T18:52:54.761+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+                <title
+                    jcr:created="{Date}2023-03-06T18:53:43.197+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T18:55:52.199+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Services"
+                    sling:resourceType="crea2minds/components/title"
+                    linkTarget="_self"
+                    type="h3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="1"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2023-03-06T18:54:01.493+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T18:55:30.286+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/text"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>3d&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;li>2d&lt;/li>&#xd;&#xa;&lt;li>video graphics&lt;/li>&#xd;&#xa;&lt;li>animation&lt;/li>&#xd;&#xa;&lt;li>video edit&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+            <responsivegrid_466654865
+                jcr:created="{Date}2023-03-06T18:57:38.075+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-06T18:57:38.075+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+                <title
+                    jcr:created="{Date}2023-03-06T18:58:18.834+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T18:58:47.075+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="About Us"
+                    sling:resourceType="crea2minds/components/title"
+                    linkTarget="_self"
+                    type="h3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="2"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2023-03-06T18:58:55.032+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T19:11:58.568+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/text"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>DM for Paid Services \ud83d\udc47&lt;br />&#xd;&#xa;3d Modelling / Architecture / Sculpting / Level Design&lt;br />&#xd;&#xa;Video Editing / Lyrical Videos / Motion Graphics&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>&lt;p>www.artstation.com/madhu_babu&lt;/p>&#xd;&#xa;&lt;/a>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+            </responsivegrid_466654865>
+            <responsivegrid_1541768508
+                jcr:created="{Date}2023-03-06T19:07:28.624+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-06T19:07:28.624+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+                <title
+                    jcr:created="{Date}2023-03-06T19:08:22.619+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T19:08:40.448+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Social Media"
+                    sling:resourceType="crea2minds/components/title"
+                    linkTarget="_self"
+                    type="h3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="1"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2023-03-06T19:09:06.745+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T19:13:37.692+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/text"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>Instagram -&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot; style=&quot;background-color: rgb(255, 255, 255);&quot;>www.instagram.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Facebook -&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.facebook.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Twitter&amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.twitter.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid_1541768508>
+        </root>
+    </jcr:content>
+</jcr:root>

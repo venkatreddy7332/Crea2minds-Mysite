@@ -2,6 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/crea2minds" mode="merge"/>
     <filter root="/content/crea2minds" mode="merge"/>
-    <filter root="/content/dam/crea2minds/asset.jpg" mode="merge"/>
+    <filter root="/content/dam" mode="merge"/>
     <filter root="/content/experience-fragments/crea2minds" mode="merge"/>
 </workspaceFilter>

@@ -29,6 +29,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="crea2minds/components/search"
                 searchRoot="/content/crea2minds/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

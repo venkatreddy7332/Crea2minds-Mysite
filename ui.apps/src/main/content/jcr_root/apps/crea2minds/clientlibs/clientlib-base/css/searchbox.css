@@ -1,0 +1,16 @@
+.search{ 
+  width:auto;
+  margin:0px auto;
+  text-align:center; 
+    padding:15px 0 5px 0;
+}
+.search form input{
+  height:20px;
+  width:auto;
+}
+.search form button{
+  height:26px;
+  width:auto;
+  background-color:white;
+     border-radius:20px;
+}
