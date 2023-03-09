@@ -7,16 +7,13 @@ import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-import org.osgi.service.component.annotations.Reference;
-import sun.util.calendar.BaseCalendar;
+
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.jcr.Session;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 import java.util.Date;
 
 @Model(adaptables = SlingHttpServletRequest.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
@@ -49,7 +46,8 @@ public class WelcomeComponentModel {
             }
         }
 
-        date=new Date().toString();
+        date = new SimpleDateFormat("dd-MMM-yyyy").format(Calendar.getInstance().getTime());
+
     }
 
     public String getWelcometext() {
