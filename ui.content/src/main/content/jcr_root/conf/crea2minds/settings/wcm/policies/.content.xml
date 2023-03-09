@@ -355,6 +355,13 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         clientlibs="[wcm.foundation.components.page.responsive]">
                         <jcr:content
+                            cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicatedBy_publish="admin"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </default>
@@ -411,6 +418,13 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                         <jcr:content
+                            cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicatedBy_publish="admin"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </default>
@@ -421,7 +435,15 @@
                         jcr:title="Home Page"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:General,group:Crea2minds - Content,group:Crea2minds - Form,group:Crea2minds - Structure]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicatedBy_publish="admin"
+                            cq:lastReplicationAction="Activate"
+                            cq:lastReplicationAction_publish="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1280459898723400>
                 </responsivegrid>
             </components>

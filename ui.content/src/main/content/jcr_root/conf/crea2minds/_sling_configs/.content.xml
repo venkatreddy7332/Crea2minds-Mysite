@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="nt:unstructured">
     <rep:policy/>
     <com.adobe.cq.wcm.core.components.internal.DataLayerConfig
+        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="nt:unstructured"
         enabled="{Boolean}true"/>
     <com.adobe.cq.wcm.core.components.internal.services.pdfviewer.PdfViewerCaConfig
+        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
+    <com.adobe.aem.wcm.site.manager.config.SiteConfig
+        jcr:primaryType="nt:unstructured"
+        siteTemplatePath="/libs/wcm/core/site-templates/aem-site-template-stub-2.0.0"
+        themePackageName="crea2minds-theme"/>
+    <com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig/>
 </jcr:root>

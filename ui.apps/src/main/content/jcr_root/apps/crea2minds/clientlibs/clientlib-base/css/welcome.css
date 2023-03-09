@@ -1,0 +1,20 @@
+.welcome{
+  background-color:red;
+  width:100%;
+  height:60px;
+display:block;
+}
+.welcome-text{
+  margin:10px 10px 0 0;
+  float:right; 
+}
+.welcome-date{
+  text-align:center;
+}
+.w-text{
+ position:relative;
+  top:20px;
+  left:40%;
+  display:inline;
+  text-align:center;
+}

@@ -1,0 +1,26 @@
+
+<sly data-sly-use.model="com.adobe.aem.crea2minds.core.models.WelcomeComponentModel" >
+
+<script>
+
+var accessable="${model.isAccessable @context ='scriptString'}";
+if(accessable == "false"){
+ location.assign("/content/crea2minds/us/en.html");
+}
+
+</script>
+<div class="welcome">
+<div class="w-text">
+ ${model.welcometext}
+  </div>
+    <div class="welcome-text">
+      <div class="welcome-date">
+        ${model.date}
+      </div>
+      <div class="user name"> 
+        Welcome ${model.username}.
+      </div>
+    </div>   
+</div>
+
+</sly>
