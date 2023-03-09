@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2023-03-09T00:19:16.985+05:30"
+    cq:lastReplicated_publish="{Date}2023-03-09T00:19:16.985+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicatedBy_publish="admin"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_publish="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="nt:unstructured"
     jcr:title="Properties"
     sling:resourceType="cq/gui/components/authoring/dialog">
@@ -16,17 +23,6 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Search Button Name"
                         name="./button"/>
-                    <path
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                        fieldLabel="Target Path"
-                        name="./path"
-                        required="{Boolean}true"/>
-                    <placeholder
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Place Holder Text"
-                        name="./placeholder"/>
                 </items>
             </column>
         </items>

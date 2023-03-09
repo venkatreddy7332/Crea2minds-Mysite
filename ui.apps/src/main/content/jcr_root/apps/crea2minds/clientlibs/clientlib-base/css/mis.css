@@ -4,3 +4,6 @@ body{
 #title-db3ec91782{
     text-align:center;
 }
+.cmp-carousel__actions {
+    visibility: hidden;
+}
