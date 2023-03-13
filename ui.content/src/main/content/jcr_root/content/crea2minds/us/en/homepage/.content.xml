@@ -4,8 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2023-03-09T11:54:33.754+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-09T00:08:57.368+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-09T00:08:57.368+05:30"
+        cq:lastReplicated="{Date}2023-03-13T16:35:45.034+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T16:35:45.034+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -27,15 +27,22 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <carousel
+                    cq:lastReplicated="{Date}2023-03-13T16:12:59.365+05:30"
+                    cq:lastReplicated_publish="{Date}2023-03-13T16:12:59.365+05:30"
+                    cq:lastReplicatedBy="admin"
+                    cq:lastReplicatedBy_publish="admin"
+                    cq:lastReplicationAction="Activate"
+                    cq:lastReplicationAction_publish="Activate"
                     jcr:created="{Date}2023-03-07T12:58:51.370+05:30"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2023-03-07T14:29:42.190+05:30"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:ReplicationStatus]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="crea2minds/components/carousel"
                     autopauseDisabled="false"
                     autoplay="true"
-                    delay="200">
+                    delay="8000">
                     <image_743817945
                         jcr:created="{Date}2023-03-07T13:00:36.263+05:30"
                         jcr:createdBy="admin"
