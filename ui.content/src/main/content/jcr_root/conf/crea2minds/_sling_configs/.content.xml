@@ -25,6 +25,13 @@
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
     <com.adobe.aem.wcm.site.manager.config.SiteConfig
+        cq:lastReplicated="{Date}2023-03-09T11:56:18.817+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-09T11:56:18.817+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="nt:unstructured"
         siteTemplatePath="/libs/wcm/core/site-templates/aem-site-template-stub-2.0.0"
         themePackageName="crea2minds-theme"/>

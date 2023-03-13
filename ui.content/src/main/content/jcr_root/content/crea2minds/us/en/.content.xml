@@ -4,8 +4,8 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastReplicated="{Date}2023-03-09T00:08:27.246+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-09T00:08:27.246+05:30"
+        cq:lastReplicated="{Date}2023-03-13T15:23:26.108+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T15:23:26.108+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -90,4 +90,5 @@
     </jcr:content>
     <homepage/>
     <search/>
+    <login/>
 </jcr:root>

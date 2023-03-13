@@ -11,7 +11,7 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-07T14:11:09.486+05:30"
+        jcr:lastModified="{Date}2023-03-09T10:39:56.837+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -159,7 +159,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20200725"
             dam:DigitalCreationTime="103408+0800"
-            dam:extracted="{Date}2023-03-07T14:11:04.374+05:30"
+            dam:extracted="{Date}2023-03-09T10:39:52.583+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -246,6 +246,52 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <crs:Look
+                crs:Amount="{Decimal}1.000000"
+                crs:Name="Adobe Color"
+                crs:SupportsAmount="false"
+                crs:SupportsMonochrome="false"
+                crs:SupportsOutputReferred="false"
+                crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct">
+                <crs:Parameters
+                    crs:CameraProfile="Adobe Standard"
+                    crs:ConvertToGrayscale="False"
+                    crs:LookTable="E1095149FDB39D7A057BAB208837E2E1"
+                    crs:ProcessVersion="{Decimal}11.0"
+                    crs:ToneCurvePV2012="[0\, 0,22\, 16,40\, 35,127\, 127,224\, 230,240\, 246,255\, 255]"
+                    crs:ToneCurvePV2012_xmpArrayType="rdf:Seq"
+                    crs:ToneCurvePV2012Blue="[0\, 0,255\, 255]"
+                    crs:ToneCurvePV2012Blue_xmpArrayType="rdf:Seq"
+                    crs:ToneCurvePV2012Green="[0\, 0,255\, 255]"
+                    crs:ToneCurvePV2012Green_xmpArrayType="rdf:Seq"
+                    crs:ToneCurvePV2012Red="[0\, 0,255\, 255]"
+                    crs:ToneCurvePV2012Red_xmpArrayType="rdf:Seq"
+                    crs:Version="{Decimal}12.3"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct"/>
+                <crs:Group
+                    jcr:primaryType="nt:unstructured"
+                    xmpArraySize="{Long}1"
+                    xmpArrayType="rdf:Alt"
+                    xmpNodeType="xmpArray">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        _x0031_="Profiles"
+                        xmpNodeType="xmpSimple">
+                        <__Q
+                            jcr:primaryType="nt:unstructured"
+                            xml:lang="x-default"
+                            xmpNodeType="xmpQualifier"/>
+                    </_x0031_>
+                </crs:Group>
+            </crs:Look>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="A817E21D2E0747CADDC99FD05560F49C"
+                stRef:originalDocumentID="A817E21D2E0747CADDC99FD05560F49C"
                 xmpNodeType="xmpStruct"/>
             <crs:RetouchAreas
                 jcr:primaryType="nt:unstructured"
@@ -590,52 +636,6 @@
                         xmpNodeType="xmpStruct"/>
                 </_x0034_>
             </crs:CircularGradientBasedCorrections>
-            <crs:Look
-                crs:Amount="{Decimal}1.000000"
-                crs:Name="Adobe Color"
-                crs:SupportsAmount="false"
-                crs:SupportsMonochrome="false"
-                crs:SupportsOutputReferred="false"
-                crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
-                jcr:primaryType="nt:unstructured"
-                xmpNodeType="xmpStruct">
-                <crs:Group
-                    jcr:primaryType="nt:unstructured"
-                    xmpArraySize="{Long}1"
-                    xmpArrayType="rdf:Alt"
-                    xmpNodeType="xmpArray">
-                    <_x0031_
-                        jcr:primaryType="nt:unstructured"
-                        _x0031_="Profiles"
-                        xmpNodeType="xmpSimple">
-                        <__Q
-                            jcr:primaryType="nt:unstructured"
-                            xml:lang="x-default"
-                            xmpNodeType="xmpQualifier"/>
-                    </_x0031_>
-                </crs:Group>
-                <crs:Parameters
-                    crs:CameraProfile="Adobe Standard"
-                    crs:ConvertToGrayscale="False"
-                    crs:LookTable="E1095149FDB39D7A057BAB208837E2E1"
-                    crs:ProcessVersion="{Decimal}11.0"
-                    crs:ToneCurvePV2012="[0\, 0,22\, 16,40\, 35,127\, 127,224\, 230,240\, 246,255\, 255]"
-                    crs:ToneCurvePV2012_xmpArrayType="rdf:Seq"
-                    crs:ToneCurvePV2012Blue="[0\, 0,255\, 255]"
-                    crs:ToneCurvePV2012Blue_xmpArrayType="rdf:Seq"
-                    crs:ToneCurvePV2012Green="[0\, 0,255\, 255]"
-                    crs:ToneCurvePV2012Green_xmpArrayType="rdf:Seq"
-                    crs:ToneCurvePV2012Red="[0\, 0,255\, 255]"
-                    crs:ToneCurvePV2012Red_xmpArrayType="rdf:Seq"
-                    crs:Version="{Decimal}12.3"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct"/>
-            </crs:Look>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="A817E21D2E0747CADDC99FD05560F49C"
-                stRef:originalDocumentID="A817E21D2E0747CADDC99FD05560F49C"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related
             cq:lastReplicated="{Date}2023-03-09T00:13:39.280+05:30"

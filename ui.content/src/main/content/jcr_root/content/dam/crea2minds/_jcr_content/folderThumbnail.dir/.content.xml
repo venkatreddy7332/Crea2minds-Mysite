@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        cq:lastReplicated="{Date}2023-03-09T00:12:11.978+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-09T00:12:11.978+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        dam:folderThumbnailPaths="[/content/dam/crea2minds/logo-template.png,/content/dam/crea2minds/Crea2minds.PNG,/content/dam/crea2minds/asset.jpg]"
-        jcr:mixinTypes="[cq:ReplicationStatus]"
+        dam:folderThumbnailPaths="[/content/dam/crea2minds/logo-template.png,/content/dam/crea2minds/Crea2minds.PNG,/content/dam/crea2minds/images/banner5.jpg]"
+        jcr:mixinTypes="[]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

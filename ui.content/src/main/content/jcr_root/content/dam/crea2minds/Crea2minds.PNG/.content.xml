@@ -4,50 +4,41 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="215f158a-3784-4826-ac39-ec60b6799046">
     <jcr:content
-        cq:lastReplicated="{Date}2023-03-09T00:12:50.934+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-09T00:12:50.934+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-07T12:28:45.589+05:30"
+        jcr:lastModified="{Date}2023-03-09T10:35:26.052+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:mixinTypes="[]"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:lastReplicated="{Date}2023-03-09T00:12:54.595+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-09T00:12:54.595+05:30"
-            cq:lastReplicatedBy="admin"
-            cq:lastReplicatedBy_publish="admin"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            dam:Bitsperpixel="{Long}8"
-            dam:extracted="{Date}2023-03-07T12:28:41.668+05:30"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2023-03-09T10:35:20.023+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}-1"
-            dam:Physicalheightininches="{Decimal}-1.0"
-            dam:Physicalwidthindpi="{Long}-1"
-            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}3.083763837814331"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}3.583833694458008"
             dam:Progressive="no"
-            dam:sha1="85f71a76ba3ba09c52ab3fb2dd05a70ab645594b"
-            dam:size="{Long}19970"
+            dam:sha1="1cdf586e7ada375de27033f228d89ed3766d391a"
+            dam:size="{Long}16128"
             dc:format="image/png"
-            jcr:mixinTypes="[cq:ReplicationStatus,cq:Taggable]"
+            jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}1600"
-            tiff:ImageWidth="{Long}1600"/>
+            tiff:ImageLength="{Long}296"
+            tiff:ImageWidth="{Long}344"/>
         <related
-            cq:lastReplicated="{Date}2023-03-09T00:12:57.697+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-09T00:12:57.697+05:30"
-            cq:lastReplicatedBy="admin"
-            cq:lastReplicatedBy_publish="admin"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2023-03-06T18:34:56.078+05:30"/>
+        </usages>
     </jcr:content>
 </jcr:root>

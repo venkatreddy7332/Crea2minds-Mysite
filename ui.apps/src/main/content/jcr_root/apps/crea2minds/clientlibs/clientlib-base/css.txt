@@ -2,3 +2,4 @@
 searchbox.css
 mis.css
 welcome.css
+template.css

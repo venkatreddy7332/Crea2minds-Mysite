@@ -1,27 +1,41 @@
 package com.adobe.aem.crea2minds.core.services;
 
+import com.adobe.granite.security.user.UserManagementService;
+import org.apache.jackrabbit.api.security.user.Authorizable;
 import org.apache.jackrabbit.api.security.user.Group;
 import org.apache.jackrabbit.api.security.user.User;
 import org.apache.jackrabbit.api.security.user.UserManager;
+import org.apache.jackrabbit.commons.JcrUtils;
+import org.apache.sling.api.resource.LoginException;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.jcr.Repository;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import javax.jcr.SimpleCredentials;
+import java.util.*;
+
 @Component(service =UserGroupsService.class,immediate = true,name = "my-usergroup-service")
 public class UserGroupsService {
 
      static final Logger log= LoggerFactory.getLogger(UserGroupsService.class);
 
-    public Boolean isAccessable(String groupname, ResourceResolver resolver){
+     @Reference
+     private ResourceResolverFactory factory;
+
+     @Reference
+     private SystemUserResolver systemresolver;
+
+    public Boolean isAccessable(String groupname,ResourceResolver resolver) throws LoginException {
+        String useridd=resolver.adaptTo(Session.class).getUserID();
         boolean isAccessable=false;
         List <String> groups=new ArrayList<>();
-       String id= resolver.adaptTo(Session.class).getUserID();
+       String id=resolver.adaptTo(Session.class).getUserID();
        log.info("User id is--{}"+id);
         UserManager usm=resolver.adaptTo(UserManager.class);
         User usser;
@@ -44,22 +58,25 @@ public class UserGroupsService {
         log.info("isauthor ----{}"+isAccessable);
         return isAccessable;
     }
-    public String createuser(String userid,String password,ResourceResolver resolver) throws RepositoryException {
+    public String createuser(String username,String password) throws RepositoryException, LoginException {
       String status="";
-
-        UserManager usermanager=resolver.adaptTo(UserManager.class);
-      User user=usermanager.createUser(userid,password);
-      if(user !=null){
-          status="user added Successfully";
-      }else{
-          status="User not added";
-      }
+     Session session= systemresolver.getResourceResolver().adaptTo(Session.class);
+        UserManagementService ums = systemresolver.getResourceResolver().adaptTo(UserManagementService.class);
+        UserManager userManager = ums.getUserManager(session);
+       User user= userManager.createUser(username,password);
+       log.info(user.toString()+"==has created");
         return status;
     }
 
-    public String changepassword(String userid,String newpassword,ResourceResolver resolver) throws RepositoryException {
+    public String changepassword(String userid,String newpassword) throws RepositoryException {
         String status="";
-       UserManager userManager = resolver.adaptTo(UserManager.class);
+        ResourceResolver resolver= null;
+        try {
+            resolver = systemresolver.getResourceResolver();
+        } catch (LoginException e) {
+            throw new RuntimeException(e);
+        }
+        UserManager userManager = resolver.adaptTo(UserManager.class);
       User user =  (User) userManager.getAuthorizable(userid);
       user.changePassword(newpassword);
         return status;

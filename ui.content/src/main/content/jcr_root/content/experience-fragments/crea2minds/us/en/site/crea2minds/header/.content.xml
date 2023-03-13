@@ -4,8 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2023-03-06T18:39:44.189+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated="{Date}2023-03-09T11:56:18.817+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-09T11:56:18.817+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -19,4 +19,5 @@
         jcr:uuid="d796cf5b-0405-43eb-a5e5-0aae0aa0f1ac"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
+    <without-welcome/>
 </jcr:root>
