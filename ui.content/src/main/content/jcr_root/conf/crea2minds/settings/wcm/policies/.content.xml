@@ -338,6 +338,58 @@
                     clientlibsJsHead="crea2minds.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
+                <policy_1514455680616100
+                    cq:styleDefaultClasses="Template Css"
+                    jcr:lastModified="{Date}2023-03-09T11:47:24.333+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Crea2minds"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="crea2minds.base"
+                    clientlibsAsync="false">
+                    <jcr:content
+                        cq:lastReplicated="{Date}2023-03-13T00:56:57.864+05:30"
+                        cq:lastReplicated_publish="{Date}2023-03-13T00:56:57.864+05:30"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_publish="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_publish="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Background color"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="bg-colour-black"
+                                    cq:styleId="1678342600152"
+                                    cq:styleLabel="Black"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="bg-color-lightgreen"
+                                    cq:styleId="1678342608314"
+                                    cq:styleLabel="Light Green"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="bg-color-lightpink"
+                                    cq:styleId="1678342629999"
+                                    cq:styleLabel="Light Pink"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="bg-colour-lightyellow"
+                                    cq:styleId="1678342615287"
+                                    cq:styleLabel="Light Yellow"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="bg-colour-lightskyblue"
+                                    cq:styleId="1678342623210"
+                                    cq:styleLabel="Light SkyBlue"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1514455680616100>
             </page>
         </components>
     </crea2minds>
@@ -349,11 +401,14 @@
                         jcr:primaryType="nt:unstructured"
                         mergeList="{Boolean}true"/>
                     <default
-                        jcr:description="Policy of the default page"
+                        cq:styleDefaultClasses="Template Css"
+                        jcr:lastModified="{Date}2023-03-09T11:55:15.108+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Default Page"
+                        jcr:title="Crea2minds"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        clientlibs="[wcm.foundation.components.page.responsive]">
+                        clientlibs="crea2minds.base"
+                        clientlibsAsync="false">
                         <jcr:content
                             cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
                             cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
@@ -364,6 +419,34 @@
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Background color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="bg-colour-black"
+                                        cq:styleId="1678342439134"
+                                        cq:styleLabel="Black"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="bg-color-lightgreen"
+                                        cq:styleId="1678342450371"
+                                        cq:styleLabel="Light Green"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="bg-colour-lightyellow"
+                                        cq:styleId="1678342456176"
+                                        cq:styleLabel="Light Yellow"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="bg-colour-lightskyblue"
+                                        cq:styleId="1678342462708"
+                                        cq:styleLabel="Light SkyBlue"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
                     </default>
                 </page>
                 <responsivegrid jcr:primaryType="nt:unstructured">

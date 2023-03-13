@@ -1,7 +1,9 @@
 package com.adobe.aem.crea2minds.core.models;
 
+import com.adobe.aem.crea2minds.core.services.PageAccessibleGroupServiceImpl;
 import com.adobe.aem.crea2minds.core.services.UserGroupsService;
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.LoginException;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
@@ -25,28 +27,40 @@ public class WelcomeComponentModel {
     @OSGiService
     private UserGroupsService userGroupsService;
 
+    @OSGiService
+    private PageAccessibleGroupServiceImpl pageAccessibleGroupService;
+
     @ValueMapValue
     private String welcometext;
 
     @ValueMapValue
-    private String groupname;
+    private String redirectpath;
 
     private String date;
+
+    private String groupname;
 
     private String username;
     private boolean isAccessable;
 
     @PostConstruct
-    public void init(){
+    public void init() throws LoginException {
+        if(pageAccessibleGroupService !=null){
+            groupname=pageAccessibleGroupService.getGroupname();
+        }
+
         if(req !=null) {
             ResourceResolver resolver =req.getResourceResolver();
-            isAccessable = userGroupsService.isAccessable(groupname, resolver);
+            isAccessable = userGroupsService.isAccessable(groupname,req.getResourceResolver());
             if(resolver != null) {
                username= resolver.adaptTo(Session.class).getUserID();
             }
         }
+        redirectpath=redirectpath+".html";
 
         date = new SimpleDateFormat("dd-MMM-yyyy").format(Calendar.getInstance().getTime());
+
+
 
     }
 
@@ -69,5 +83,9 @@ public class WelcomeComponentModel {
 
     public boolean isAccessable() {
         return isAccessable;
+    }
+
+    public String getRedirectpath() {
+        return redirectpath;
     }
 }

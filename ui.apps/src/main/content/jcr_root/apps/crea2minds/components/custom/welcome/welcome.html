@@ -5,7 +5,7 @@
 
 var accessable="${model.isAccessable @context ='scriptString'}";
 if(accessable == "false"){
- location.assign("/content/crea2minds/us/en.html");
+ location.assign("${model.redirectpath @context ='scriptString'}");
 }
 
 </script>
