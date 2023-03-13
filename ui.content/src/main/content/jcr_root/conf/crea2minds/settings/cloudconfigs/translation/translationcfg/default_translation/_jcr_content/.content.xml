@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    assets_contentFragmentAssets="donottranslate"
+    assets_defaultCategory="general"
+    assets_defaultTranslationProvider="microsoft"
+    assets_translationWorkflow="machineTranslation"
+    defaultCategory="general"
+    defaultTranslationProvider="microsoft"
+    sites_defaultCategory="general"
+    sites_defaultTranslationProvider="microsoft"
+    sites_translateEmbeddedAssets="sitetranslation"
+    sites_translationWorkflow="machineTranslation"
+    ugcPath="de_at"/>
