@@ -27,6 +27,9 @@ public class NavigationServlet extends SlingSafeMethodsServlet {
         final Resource mainresource = req.getResource();
        resp.setContentType("application/json");
        String path=req.getParameter("path");
+       if(path ==null){
+           log.info("please add the path in the dialog to get data ----");
+       }
        Resource resource=req.getResourceResolver().getResource(path);
       Page page= resource.adaptTo(Page.class);
      Iterator<Page> pageiteraor= page.listChildren();

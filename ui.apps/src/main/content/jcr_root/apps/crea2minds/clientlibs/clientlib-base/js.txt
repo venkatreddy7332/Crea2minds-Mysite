@@ -1,3 +1,5 @@
 #base=js
 
 searchbox.js
+
+navigation.js

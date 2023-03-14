@@ -4,14 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="2b85b484-f2e0-4d92-b30a-cbd8c76a30e4">
     <jcr:content
-        cq:lastReplicated="{Date}2023-03-09T00:13:20.850+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-09T00:13:20.850+05:30"
+        cq:lastReplicated="{Date}2023-03-13T14:07:30.013+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:07:30.013+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-09T10:39:56.837+05:30"
+        jcr:lastModified="{Date}2023-03-13T13:51:51.648+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -159,7 +159,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20200725"
             dam:DigitalCreationTime="103408+0800"
-            dam:extracted="{Date}2023-03-09T10:39:52.583+05:30"
+            dam:extracted="{Date}2023-03-13T13:51:48.358+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"

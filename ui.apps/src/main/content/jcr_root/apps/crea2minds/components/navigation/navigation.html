@@ -1,0 +1,24 @@
+
+
+<div id="navigation"></div>
+<script>
+$.ajax({     
+	type : "GET",     
+    	url : '/bin/navigation.json',     
+        data : {         
+		path:"${properties.navigationRoot @context= 'scriptString'}"
+        },     
+        success : function(data) {   
+navigation(data);
+
+
+        },     
+        error : function(XMLHttpRequest, textStatus, errorThrown) {         
+        document.getElementById("navigation").innerHTML = "<h2 style='text-align:center;'> Unalbe to Featch Data Please Check The logs </h2>";     
+        } 
+        });
+
+
+
+
+</script>

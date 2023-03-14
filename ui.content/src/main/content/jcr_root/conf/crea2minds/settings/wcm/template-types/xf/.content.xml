@@ -3,6 +3,12 @@
     jcr:mixinTypes="[mix:lockable]"
     jcr:primaryType="cq:Template">
     <jcr:content
+        cq:lastReplicated="{Date}2023-03-13T14:11:49.134+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:11:49.134+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_publish="Deactivate"
         jcr:description="Generic template for empty experience fragments variations of My Site"
         jcr:primaryType="cq:PageContent"
         jcr:title="Experience Fragment"/>

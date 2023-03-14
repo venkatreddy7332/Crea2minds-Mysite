@@ -16,7 +16,6 @@ import javax.inject.Inject;
 import javax.jcr.Session;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 @Model(adaptables = SlingHttpServletRequest.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class WelcomeComponentModel {
@@ -64,6 +63,8 @@ public class WelcomeComponentModel {
 
     }
 
+
+
     public String getWelcometext() {
         return welcometext;
     }
@@ -85,7 +86,9 @@ public class WelcomeComponentModel {
         return isAccessable;
     }
 
+
     public String getRedirectpath() {
         return redirectpath;
     }
+
 }

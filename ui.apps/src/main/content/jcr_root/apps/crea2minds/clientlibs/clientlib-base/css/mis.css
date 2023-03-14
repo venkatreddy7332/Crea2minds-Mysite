@@ -5,3 +5,9 @@
 .cmp-carousel__actions {
     visibility: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+.aem-Grid.aem-Grid--12>.aem-GridColumn.aem-GridColumn--offset--default--3 {
+    margin-left: 15%;
+}
+        }

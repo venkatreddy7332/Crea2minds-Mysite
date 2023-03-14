@@ -3,6 +3,12 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastReplicated="{Date}2023-03-13T14:11:49.128+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:11:49.128+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_publish="Deactivate"
         cq:template="/conf/crea2minds/settings/wcm/templates/xf-web-variation"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="crea2minds/components/xfpage">
