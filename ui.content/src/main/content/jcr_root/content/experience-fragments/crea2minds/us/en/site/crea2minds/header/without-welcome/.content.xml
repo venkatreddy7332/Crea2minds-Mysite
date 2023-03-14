@@ -4,8 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2023-03-13T01:35:44.546+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated="{Date}2023-03-13T14:29:41.138+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:29:41.138+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -81,8 +81,15 @@
             </searchbox>
         </root>
         <cq:featuredimage
+            cq:lastReplicated="{Date}2023-03-13T14:29:45.467+05:30"
+            cq:lastReplicated_publish="{Date}2023-03-13T14:29:45.467+05:30"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicatedBy_publish="admin"
+            cq:lastReplicationAction="Activate"
+            cq:lastReplicationAction_publish="Activate"
             jcr:lastModified="{Date}2023-03-13T01:34:51.496+05:30"
             jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/image/v3/image"
             altValueFromDAM="false"

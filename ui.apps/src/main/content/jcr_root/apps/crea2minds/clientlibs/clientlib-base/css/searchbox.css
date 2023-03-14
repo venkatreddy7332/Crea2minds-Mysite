@@ -14,3 +14,16 @@
   background-color:white;
      border-radius:20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+.search {
+position: relative;
+    right: 145%;
+    top: 100px;
+}
+#search-button{
+            margin: 5px 0px 0px 60px;
+        }
+
+}

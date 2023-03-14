@@ -2,6 +2,12 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
+        cq:lastReplicated="{Date}2023-03-13T14:11:49.134+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:11:49.134+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_publish="Deactivate"
         jcr:description="Crea2minds Next.js Page Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Remote Next.js Page"

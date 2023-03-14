@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-13T12:14:44.595+05:30"
+        cq:lastModified="{Date}2023-03-14T22:34:19.550+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated="{Date}2023-03-13T16:42:31.521+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T16:42:31.521+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -35,6 +35,17 @@
                 groupname="administrators"
                 redirectpath="/content/crea2minds/us/en/login"
                 welcometext="Crea2minds1234"/>
+            <navigation
+                jcr:created="{Date}2023-03-14T22:17:58.132+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-14T22:18:32.543+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="crea2minds/components/navigation"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/crea2minds/us/en/homepage"
+                structureStart="1"/>
             <image
                 jcr:created="{Date}2023-03-06T18:43:11.321+05:30"
                 jcr:createdBy="admin"
@@ -55,12 +66,19 @@
                 </cq:responsive>
             </image>
             <title
+                cq:lastReplicated="{Date}2023-03-13T16:10:35.988+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-13T16:10:35.988+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
                 jcr:created="{Date}2023-03-06T18:40:08.095+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-06T18:44:29.186+05:30"
+                jcr:lastModified="{Date}2023-03-13T16:03:07.234+05:30"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Crea2minds"
+                jcr:title="Crea2minds4321"
                 sling:resourceType="crea2minds/components/title">
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
