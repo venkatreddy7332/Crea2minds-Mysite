@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-09T11:58:56.209+05:30"
+        cq:lastModified="{Date}2023-03-15T14:20:24.333+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-13T14:30:03.425+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T14:30:03.425+05:30"
+        cq:lastReplicated="{Date}2023-03-13T14:11:49.128+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T14:11:49.128+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:styleIds="[1678342615287]"
-        cq:tags="[]"
-        cq:template="/conf/crea2minds/settings/wcm/templates/crea2minds-experience-fragment-template"
+        cq:lastReplicationAction="Deactivate"
+        cq:lastReplicationAction_publish="Deactivate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/crea2minds/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
-        jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
+        cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="footer"
-        jcr:uuid="135c62f5-623b-40e9-85a0-00e7aeff0734"
-        sling:resourceType="crea2minds/components/page">
+        jcr:title="Footer1"
+        sling:resourceType="crea2minds/components/xfpage">
         <root
-            jcr:lastModified="{Date}2023-03-06T17:58:06.401+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="crea2minds/components/container"
+            layout="responsiveGrid">
             <title
                 jcr:created="{Date}2023-03-06T18:50:10.894+05:30"
                 jcr:createdBy="admin"
