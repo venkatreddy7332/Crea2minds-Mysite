@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-15T14:20:24.333+05:30"
+        cq:lastModified="{Date}2023-03-15T16:05:54.899+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-03-13T14:11:49.128+05:30"
         cq:lastReplicated_publish="{Date}2023-03-13T14:11:49.128+05:30"
@@ -15,7 +15,7 @@
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Footer1"
+        jcr:title="Footer"
         sling:resourceType="crea2minds/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
@@ -24,11 +24,12 @@
             <title
                 jcr:created="{Date}2023-03-06T18:50:10.894+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-06T18:50:46.854+05:30"
+                jcr:lastModified="{Date}2023-03-15T15:58:24.181+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="My footer"
                 sling:resourceType="crea2minds/components/title"
+                id="footer-heading-text"
                 linkTarget="_blank"
                 linkURL="/content/crea2minds/us/en/homepage"
                 type="h2">
@@ -153,17 +154,17 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="1"/>
+                            width="2"/>
                     </cq:responsive>
                 </title>
                 <text
                     jcr:created="{Date}2023-03-06T19:09:06.745+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2023-03-06T19:13:37.692+05:30"
+                    jcr:lastModified="{Date}2023-03-15T16:05:54.793+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="crea2minds/components/text"
-                    text="&lt;ul>&#xd;&#xa;&lt;li>Instagram -&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot; style=&quot;background-color: rgb(255, 255, 255);&quot;>www.instagram.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Facebook -&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.facebook.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Twitter&amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.twitter.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    text="&lt;ul>&#xd;&#xa;&lt;li>Instagram-&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.instagram.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Facebook -&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.facebook.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;li>Twitter&amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://l.instagram.com/?u=https%3A%2F%2Fwww.artstation.com%2Fmadhu_babu&amp;amp;e=AT26NM3Hf-ncSlBayUpLKlyk99jDQndBga6a47Ikkz6YIQlAprK-nGe9SSdwM7uD12bq9gDAYSlOE-CpI2p0HIQpSKp_SI-k&quot;>www.twitter.com/crea2minds&lt;/a>/&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
                     textIsRich="true"/>
                 <searchbox
                     jcr:created="{Date}2023-03-07T11:52:17.328+05:30"

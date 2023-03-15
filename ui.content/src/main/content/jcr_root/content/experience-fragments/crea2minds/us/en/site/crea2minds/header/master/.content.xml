@@ -15,7 +15,7 @@
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Header1"
+        jcr:title="Header"
         sling:resourceType="crea2minds/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"

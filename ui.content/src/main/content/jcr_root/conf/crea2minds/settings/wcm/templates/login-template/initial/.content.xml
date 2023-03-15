@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastReplicated="{Date}2023-03-13T15:12:53.375+05:30"
@@ -13,5 +13,31 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="bedd510a-c619-4384-be44-ab13c0f8fa4c"
-        sling:resourceType="crea2minds/components/page"/>
+        sling:resourceType="crea2minds/components/page">
+        <root
+            cq:lastReplicated="{Date}2023-03-13T15:13:26.789+05:30"
+            cq:lastReplicated_publish="{Date}2023-03-13T15:13:26.789+05:30"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicatedBy_publish="admin"
+            cq:lastReplicationAction="Activate"
+            cq:lastReplicationAction_publish="Activate"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container
+                jcr:created="{Date}2023-03-15T15:53:01.991+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-15T15:53:10.695+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="crea2minds/components/container"/>
+            <responsivegrid
+                jcr:created="{Date}2023-03-15T17:04:44.923+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-15T17:05:10.089+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
 </jcr:root>

@@ -2,17 +2,13 @@
 .welcome.aem-GridColumn.aem-GridColumn--default--12 {
     margin-top: 64px;
 }
-.aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--12 {
-    width: 98%;
-}
+
+
 .welcome{
-  background-color:red;
+  background-color:#c894f7;
   width:99%;
   height:50px;
 display:block;
-    margin:0px 20px;
-    border-radius:35px;
-
 }
 .welcome-text{
   margin:10px 10px 0 0;
