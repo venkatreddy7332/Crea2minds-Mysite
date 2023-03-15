@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2023-03-15T14:09:16.873+05:30"
+        cq:lastModified="{Date}2023-03-15T16:10:16.530+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-03-13T14:21:21.241+05:30"
         cq:lastReplicated_publish="{Date}2023-03-13T14:21:21.241+05:30"
@@ -29,14 +29,15 @@
             jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <experiencefragment_c
-                jcr:created="{Date}2023-03-06T18:41:38.897+05:30"
+            <experiencefragment
+                jcr:created="{Date}2023-03-15T16:07:45.765+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-15T13:05:41.690+05:30"
+                jcr:lastModified="{Date}2023-03-15T16:08:49.929+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
-                fragmentPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/header/master"/>
+                sling:resourceType="crea2minds/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/header/master"
+                id="page-header-experience"/>
             <responsivegrid
                 jcr:created="{Date}2023-03-06T18:46:20.156+05:30"
                 jcr:createdBy="admin"
@@ -47,14 +48,15 @@
                 editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </responsivegrid>
-            <experiencefragment_c_1008341381
-                jcr:created="{Date}2023-03-06T18:41:38.897+05:30"
+            <experiencefragment_1850552066
+                jcr:created="{Date}2023-03-15T16:09:05.073+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-06T19:16:00.499+05:30"
+                jcr:lastModified="{Date}2023-03-15T16:10:16.524+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
-                fragmentPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/footer/master"/>
+                sling:resourceType="crea2minds/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/footer/master"
+                id="page-footer-experience"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

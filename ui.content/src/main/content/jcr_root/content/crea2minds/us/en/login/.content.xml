@@ -2,33 +2,182 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-13T00:17:15.521+05:30"
+        cq:lastModified="{Date}2023-03-16T00:17:43.620+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-13T14:24:15.141+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T14:24:15.141+05:30"
+        cq:lastReplicated="{Date}2023-03-13T15:12:53.375+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-13T15:12:53.375+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:template="/conf/crea2minds/settings/wcm/templates/crea2minds-experience-fragment-template"
+        cq:template="/conf/crea2minds/settings/wcm/templates/login-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Login Page"
-        jcr:uuid="a7112465-14b2-4140-8ecd-5b912666b2d2"
+        jcr:uuid="a2735c48-9848-4dd9-98a6-8ebba0642ec1"
         sling:resourceType="crea2minds/components/page">
         <root
-            jcr:lastModified="{Date}2023-03-06T17:58:06.401+05:30"
-            jcr:lastModifiedBy="admin"
+            cq:lastReplicated="{Date}2023-03-13T15:13:26.789+05:30"
+            cq:lastReplicated_publish="{Date}2023-03-13T15:13:26.789+05:30"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicatedBy_publish="admin"
+            cq:lastReplicationAction="Activate"
+            cq:lastReplicationAction_publish="Activate"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <signin
-                jcr:created="{Date}2023-03-13T00:17:15.503+05:30"
+            <container
+                jcr:created="{Date}2023-03-15T15:53:01.991+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-13T00:17:15.503+05:30"
+                jcr:lastModified="{Date}2023-03-15T15:53:10.695+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="crea2minds/components/custom/signin"/>
+                sling:resourceType="crea2minds/components/container"/>
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text_656827018
+                    jcr:created="{Date}2023-03-16T00:08:50.171+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-16T00:10:53.965+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>Lorem ipsum&lt;/b>&lt;/p>&#xd;&#xa;&lt;p> In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. Wikipedia&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="7"/>
+                    </cq:responsive>
+                </text_656827018>
+                <title
+                    jcr:created="{Date}2023-03-15T17:06:02.376+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-15T17:06:02.376+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/title">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                    </cq:responsive>
+                </title>
+                <hidden
+                    jcr:created="{Date}2023-03-15T19:37:30.755+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-15T23:26:13.222+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/form/hidden"
+                    id="hidden-field"
+                    name="sling.auth.redirect"
+                    value="/content/crea2minds/us/en/homepage.html">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="8"
+                            width="1"/>
+                    </cq:responsive>
+                </hidden>
+                <formcontainer
+                    jcr:created="{Date}2023-03-15T19:09:04.669+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-15T19:21:10.149+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/custom/formContainer"
+                    actionUrl="/libs/granite/core/content/login.html/j_security_check"
+                    formclass="login-form"
+                    id="login-form-page"
+                    method="POST"
+                    name="login-form">
+                    <container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="crea2minds/components/container">
+                        <text
+                            jcr:created="{Date}2023-03-15T19:21:22.450+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-03-15T23:25:43.830+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Username"
+                            sling:resourceType="crea2minds/components/form/text"
+                            helpMessage="User Name......"
+                            id="login-username"
+                            name="j_username"
+                            rows="2"
+                            type="text"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="8"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text>
+                        <text_2030444028
+                            jcr:created="{Date}2023-03-15T19:25:39.823+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-03-15T19:26:39.274+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Password"
+                            sling:resourceType="crea2minds/components/form/text"
+                            helpMessage="Password......."
+                            id="login-password"
+                            name="j_password"
+                            rows="2"
+                            type="password"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="8"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text_2030444028>
+                        <button
+                            jcr:created="{Date}2023-03-15T19:26:50.802+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-03-15T19:27:42.062+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Login"
+                            sling:resourceType="crea2minds/components/form/button"
+                            id="login-button"
+                            name="login"
+                            type="submit">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="9"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button>
+                        <text_2045865012
+                            jcr:created="{Date}2023-03-15T19:59:50.082+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-03-16T00:05:43.746+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="crea2minds/components/text"
+                            text="&lt;div>&lt;div class=&quot;forget-password&quot;>&lt;a href=&quot;/content.html&quot;>Forget Password ?&lt;/a>&lt;/div>&#xd;&#xa;&lt;div class=&quot;signup&quot;>&lt;a href=&quot;/content&quot;>Sign Up&lt;/a>&lt;/div>&#xd;&#xa;&lt;div id=&quot;login-error&quot;>&amp;nbsp;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="8"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_2045865012>
+                    </container>
+                </formcontainer>
+            </responsivegrid>
         </root>
     </jcr:content>
 </jcr:root>
