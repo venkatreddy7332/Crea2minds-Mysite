@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-06T18:48:49.684+05:30"
+        cq:lastModified="{Date}2023-03-15T14:20:24.290+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-13T14:29:57.626+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T14:29:57.626+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
         cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
-        jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="footer"
-        jcr:uuid="0fd7a362-c809-439c-a39e-6256e4e6c5f3"
+        jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
 </jcr:root>

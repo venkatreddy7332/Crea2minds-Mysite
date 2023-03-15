@@ -16,6 +16,4 @@ public class NavigationModelImpl {
         return navigationRoot;
     }
 
-
-
 }
