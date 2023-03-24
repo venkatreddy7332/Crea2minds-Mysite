@@ -1,6 +1,8 @@
 
 
 <div id="navigation"></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <script>
 $.ajax({     
 	type : "GET",     
@@ -9,7 +11,7 @@ $.ajax({
 		path:"${properties.navigationRoot @context= 'scriptString'}"
         },     
         success : function(data) {   
-navigation(data);
+		navigation(data);
 
 
         },     

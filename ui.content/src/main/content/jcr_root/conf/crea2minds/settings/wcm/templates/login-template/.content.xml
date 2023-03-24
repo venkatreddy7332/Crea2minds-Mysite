@@ -4,6 +4,12 @@
     <jcr:content
         cq:lastModified="{Date}2023-03-15T17:05:45.490+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-03-16T10:14:06.288+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-16T10:14:06.288+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
         cq:templateType="/conf/crea2minds/settings/wcm/template-types/crea2minds"
         jcr:description="Login Template"
         jcr:primaryType="cq:PageContent"

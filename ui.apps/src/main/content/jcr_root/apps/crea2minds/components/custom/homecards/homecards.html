@@ -1,0 +1,32 @@
+
+<sly data-sly-use.homecards="com.adobe.aem.crea2minds.core.models.NavigationModelImpl"/>
+
+<sly data-sly-test.hascontent="${homecards.result}">
+<div class="homepage-cards">
+
+<sly data-sly-list.items="${homecards.result}">
+<div class="card">
+  <div class="card_${items.name}">
+   <div class="card-text">
+     <h2>${items.title}</h2>
+
+<sly data-sly-test.hascontent="${items.description}">
+    <h4> ${items.description}</h4>
+</sly>
+     <a href="${items.path}.html"> <button> learn More</button></a>
+   </div>
+
+<sly data-sly-test.hascontent="${items.image}">
+    <div class="card-image">
+      <img class="imm" src="${items.image}" alt="Girl in a jacket" width="250" height="200">
+    </div>
+</sly>
+  </div>
+</div>
+</sly>
+  
+</div>
+
+
+</sly>
+
