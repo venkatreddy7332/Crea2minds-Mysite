@@ -2,22 +2,26 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-15T19:48:43.946+05:30"
+        cq:lastModified="{Date}2023-03-24T17:14:43.097+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-13T16:35:45.034+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T16:35:45.034+05:30"
+        cq:lastReplicated="{Date}2023-03-16T10:19:23.498+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-16T10:19:23.498+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:styleIds="[1678342462708]"
         cq:template="/conf/crea2minds/settings/wcm/templates/home-page"
+        jcr:description="Home page Here we get all sub content list"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home Page"
         jcr:uuid="4623a693-5c82-4580-be8e-64b67188f1e1"
-        sling:resourceType="crea2minds/components/page">
+        sling:resourceType="crea2minds/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:lastModified="{Date}2023-03-06T17:57:02.125+05:30"
             jcr:lastModifiedBy="admin"
@@ -47,7 +51,7 @@
                         cq:panelTitle="Web Development Service"
                         jcr:created="{Date}2023-03-07T13:00:36.263+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-03-15T19:47:19.465+05:30"
+                        jcr:lastModified="{Date}2023-03-24T15:09:01.347+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Web Development Service"
@@ -55,12 +59,12 @@
                         alt="Web Services"
                         fileReference="/content/dam/crea2minds/images/banner5.jpg"
                         height="400"
-                        width="1225"/>
+                        width="1350"/>
                     <image_232916547
                         cq:panelTitle="Always Remember To Breathe"
                         jcr:created="{Date}2023-03-07T13:00:57.813+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-03-15T19:47:54.522+05:30"
+                        jcr:lastModified="{Date}2023-03-24T15:09:34.476+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Always Remember To Breathe"
@@ -68,34 +72,52 @@
                         alt="To Breathe"
                         fileReference="/content/dam/crea2minds/images/banner4.jpg"
                         height="400"
-                        width="1225"/>
+                        width="1350"/>
                     <image
                         cq:panelTitle="Butterfly On Tree"
                         jcr:created="{Date}2023-03-07T12:59:25.375+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-03-15T19:48:07.278+05:30"
+                        jcr:lastModified="{Date}2023-03-24T15:10:38.716+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Butterfly On Tree"
                         sling:resourceType="foundation/components/image"
                         fileReference="/content/dam/crea2minds/images/banner1.jpg"
                         height="400"
-                        width="1225"/>
+                        width="1350"/>
                     <image_2099221899
                         cq:panelTitle="Save The Creatures"
                         jcr:created="{Date}2023-03-07T13:00:42.467+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-03-15T19:48:43.941+05:30"
+                        jcr:lastModified="{Date}2023-03-24T15:10:57.038+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Save The Creatures"
                         sling:resourceType="foundation/components/image"
                         fileReference="/content/dam/crea2minds/images/banner3.jpg"
                         height="400"
-                        width="1225"/>
+                        width="1350"/>
                 </carousel>
+                <homecards_1192390625
+                    jcr:created="{Date}2023-03-24T17:13:39.860+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-24T17:14:43.094+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/custom/homecards"
+                    navigationRoot="/content/crea2minds/us/en/homepage">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </homecards_1192390625>
             </responsivegrid>
         </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/crea2minds/images/banner2.jpg"/>
     </jcr:content>
     <services/>
     <contact/>

@@ -1,2 +1,3 @@
 #base=js
 navigation.js
+jquery.js

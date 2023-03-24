@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2023-03-16T10:12:10.148+05:30"
+    cq:lastReplicated_publish="{Date}2023-03-16T10:12:10.148+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicatedBy_publish="admin"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_publish="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="cq:Component"
     jcr:title="Form Options"
     sling:resourceSuperType="core/wcm/components/form/options/v2/options"

@@ -5,8 +5,8 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2023-03-15T17:05:10.097+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-13T15:13:12.882+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T15:13:12.882+05:30"
+        cq:lastReplicated="{Date}2023-03-16T10:14:31.362+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-16T10:14:31.362+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
@@ -18,8 +18,8 @@
         jcr:uuid="da8e3fd6-e177-444f-88f9-f738c31fe758"
         sling:resourceType="crea2minds/components/page">
         <root
-            cq:lastReplicated="{Date}2023-03-13T15:13:26.789+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-13T15:13:26.789+05:30"
+            cq:lastReplicated="{Date}2023-03-16T10:14:34.698+05:30"
+            cq:lastReplicated_publish="{Date}2023-03-16T10:14:34.698+05:30"
             cq:lastReplicatedBy="admin"
             cq:lastReplicatedBy_publish="admin"
             cq:lastReplicationAction="Activate"
@@ -28,37 +28,66 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <experiencefragment
+                cq:lastReplicated="{Date}2023-03-16T10:14:38.937+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-16T10:14:38.937+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
                 jcr:created="{Date}2023-03-15T15:50:54.874+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2023-03-15T15:52:01.789+05:30"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="crea2minds/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/header/without-welcome"
                 id="login-header-experience"/>
             <responsivegrid
+                cq:lastReplicated="{Date}2023-03-16T10:14:41.277+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-16T10:14:41.277+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
                 jcr:created="{Date}2023-03-15T17:04:44.923+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2023-03-15T17:04:44.923+05:30"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
                 editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <cq:responsive
+                    cq:lastReplicated="{Date}2023-03-16T10:14:43.638+05:30"
+                    cq:lastReplicated_publish="{Date}2023-03-16T10:14:43.638+05:30"
+                    cq:lastReplicatedBy="admin"
+                    cq:lastReplicatedBy_publish="admin"
+                    cq:lastReplicationAction="Activate"
+                    cq:lastReplicationAction_publish="Activate"
+                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                    jcr:primaryType="nt:unstructured"/>
             </responsivegrid>
             <experiencefragment_465665591
+                cq:lastReplicated="{Date}2023-03-16T10:14:46.192+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-16T10:14:46.192+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
                 jcr:created="{Date}2023-03-15T15:53:53.374+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2023-03-15T15:54:34.863+05:30"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="crea2minds/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/crea2minds/us/en/site/crea2minds/footer/master"
                 id="login-footer-experience"/>
         </root>
         <cq:responsive
-            cq:lastReplicated="{Date}2023-03-13T15:13:17.304+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-13T15:13:17.304+05:30"
+            cq:lastReplicated="{Date}2023-03-16T10:14:49.034+05:30"
+            cq:lastReplicated_publish="{Date}2023-03-16T10:14:49.034+05:30"
             cq:lastReplicatedBy="admin"
             cq:lastReplicatedBy_publish="admin"
             cq:lastReplicationAction="Activate"
@@ -66,8 +95,8 @@
             jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured">
             <breakpoints
-                cq:lastReplicated="{Date}2023-03-13T15:13:19.492+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-13T15:13:19.492+05:30"
+                cq:lastReplicated="{Date}2023-03-16T10:14:52.000+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-16T10:14:52.000+05:30"
                 cq:lastReplicatedBy="admin"
                 cq:lastReplicatedBy_publish="admin"
                 cq:lastReplicationAction="Activate"
@@ -75,8 +104,8 @@
                 jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured">
                 <phone
-                    cq:lastReplicated="{Date}2023-03-13T15:13:24.149+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-13T15:13:24.149+05:30"
+                    cq:lastReplicated="{Date}2023-03-16T10:14:54.408+05:30"
+                    cq:lastReplicated_publish="{Date}2023-03-16T10:14:54.408+05:30"
                     cq:lastReplicatedBy="admin"
                     cq:lastReplicatedBy_publish="admin"
                     cq:lastReplicationAction="Activate"
@@ -86,8 +115,8 @@
                     title="Smaller Screen"
                     width="{Long}650"/>
                 <tablet
-                    cq:lastReplicated="{Date}2023-03-13T15:13:22.148+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-13T15:13:22.148+05:30"
+                    cq:lastReplicated="{Date}2023-03-16T10:14:57.539+05:30"
+                    cq:lastReplicated_publish="{Date}2023-03-16T10:14:57.539+05:30"
                     cq:lastReplicatedBy="admin"
                     cq:lastReplicatedBy_publish="admin"
                     cq:lastReplicationAction="Activate"
