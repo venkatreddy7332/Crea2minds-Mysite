@@ -2,187 +2,111 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-15T13:32:46.799+05:30"
+        cq:lastModified="{Date}2023-04-09T14:29:39.794+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-03-16T10:16:01.170+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-16T10:16:01.170+05:30"
+        cq:lastReplicated="{Date}2023-03-08T23:51:41.641+05:30"
+        cq:lastReplicated_publish="{Date}2023-03-08T23:51:41.641+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicatedBy_publish="admin"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        cq:tags="[experience-fragments:variation/web]"
-        cq:template="/conf/crea2minds/settings/wcm/templates/xf-web-variation"
+        cq:tags="[]"
+        cq:template="/conf/crea2minds/settings/wcm/templates/crea2minds-experience-fragment-template"
         cq:xfMasterVariation="{Boolean}true"
-        cq:xfVariantType="web"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        jcr:uuid="62c699e7-e53a-4d3c-9c03-d82e9575e15f"
-        sling:resourceType="crea2minds/components/xfpage">
+        jcr:uuid="1c14902a-b231-440e-b476-2a74aaf4aa53"
+        sling:resourceType="crea2minds/components/page">
         <root
-            cq:lastReplicated="{Date}2023-03-16T10:16:03.201+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-16T10:16:03.201+05:30"
-            cq:lastReplicatedBy="admin"
-            cq:lastReplicatedBy_publish="admin"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:lastModified="{Date}2023-03-06T17:58:06.401+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="crea2minds/components/container"
-            layout="responsiveGrid">
-            <welcome
-                cq:lastReplicated="{Date}2023-03-16T10:16:06.318+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-16T10:16:06.318+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:created="{Date}2023-03-08T21:08:34.994+05:30"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container
+                jcr:created="{Date}2023-04-09T14:21:46.969+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-13T12:14:42.984+05:30"
+                jcr:lastModified="{Date}2023-04-09T14:22:33.925+05:30"
                 jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="crea2minds/components/custom/welcome"
-                groupname="administrators"
-                redirectpath="/content/crea2minds/us/en/login"
-                welcometext="Crea2minds1234"/>
-            <navigation
-                cq:lastReplicated="{Date}2023-03-16T10:16:08.386+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-16T10:16:08.386+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:created="{Date}2023-03-14T22:17:58.132+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-14T22:18:32.543+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="crea2minds/components/navigation"
-                collectAllPages="true"
-                disableShadowing="false"
-                navigationRoot="/content/crea2minds/us/en/homepage"
-                structureStart="1"/>
-            <image
-                cq:lastReplicated="{Date}2023-03-16T10:16:10.800+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-16T10:16:10.800+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:created="{Date}2023-03-06T18:43:11.321+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-06T18:43:47.482+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="foundation/components/image"
-                alt="Crea2minds Logo"
-                fileReference="/content/dam/crea2minds/Crea2minds.PNG"
-                height="100"
-                linkURL="/content/crea2minds/us/en/homepage"
-                width="100">
-                <cq:responsive
-                    cq:lastReplicated="{Date}2023-03-16T10:16:12.943+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-16T10:16:12.943+05:30"
-                    cq:lastReplicatedBy="admin"
-                    cq:lastReplicatedBy_publish="admin"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus]"
-                    jcr:primaryType="nt:unstructured">
-                    <default
-                        cq:lastReplicated="{Date}2023-03-16T10:16:14.945+05:30"
-                        cq:lastReplicated_publish="{Date}2023-03-16T10:16:14.945+05:30"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicatedBy_publish="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_publish="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="2"/>
-                </cq:responsive>
-            </image>
-            <title
-                cq:lastReplicated="{Date}2023-03-16T10:16:17.639+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-16T10:16:17.639+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:created="{Date}2023-03-06T18:40:08.095+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-13T16:03:07.234+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
-                jcr:primaryType="nt:unstructured"
-                jcr:title="Crea2minds4321"
-                sling:resourceType="crea2minds/components/title">
-                <cq:responsive
-                    cq:lastReplicated="{Date}2023-03-16T10:16:20.050+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-16T10:16:20.050+05:30"
-                    cq:lastReplicatedBy="admin"
-                    cq:lastReplicatedBy_publish="admin"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus]"
-                    jcr:primaryType="nt:unstructured">
-                    <default
-                        cq:lastReplicated="{Date}2023-03-16T10:16:22.628+05:30"
-                        cq:lastReplicated_publish="{Date}2023-03-16T10:16:22.628+05:30"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicatedBy_publish="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_publish="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"
-                        offset="3"
-                        width="3"/>
-                </cq:responsive>
-            </title>
-            <searchbox
-                cq:lastReplicated="{Date}2023-03-16T10:16:25.858+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-16T10:16:25.858+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:created="{Date}2023-03-06T19:41:56.306+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-03-06T21:06:10.030+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="crea2minds/components/custom/searchbox"
-                button="Search"
-                path="/content/crea2minds/us/en/search"
-                placeholder="Search Here">
-                <cq:responsive
-                    cq:lastReplicated="{Date}2023-03-16T10:16:31.002+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-16T10:16:31.002+05:30"
-                    cq:lastReplicatedBy="admin"
-                    cq:lastReplicatedBy_publish="admin"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus]"
-                    jcr:primaryType="nt:unstructured">
-                    <default
-                        cq:lastReplicated="{Date}2023-03-16T10:16:33.659+05:30"
-                        cq:lastReplicated_publish="{Date}2023-03-16T10:16:33.659+05:30"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicatedBy_publish="admin"
-                        cq:lastReplicationAction="Activate"
-                        cq:lastReplicationAction_publish="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="3"/>
-                </cq:responsive>
-            </searchbox>
+                sling:resourceType="crea2minds/components/container"
+                id="Header-crea"
+                layout="responsiveGrid">
+                <welcome
+                    jcr:created="{Date}2023-03-08T21:08:34.994+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-13T12:14:42.984+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/custom/welcome"
+                    groupname="administrators"
+                    redirectpath="/content/crea2minds/us/en/login"
+                    welcometext="Crea2minds1234"/>
+                <image
+                    jcr:created="{Date}2023-03-06T18:43:11.321+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T18:43:47.482+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    alt="Crea2minds Logo"
+                    fileReference="/content/dam/crea2minds/Crea2minds.PNG"
+                    height="100"
+                    linkURL="/content/crea2minds/us/en/homepage"
+                    width="100">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="2"/>
+                    </cq:responsive>
+                </image>
+                <title
+                    jcr:created="{Date}2023-03-06T18:40:08.095+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T18:44:29.186+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Crea2minds"
+                    sling:resourceType="crea2minds/components/title">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="3"
+                            width="3"/>
+                    </cq:responsive>
+                </title>
+                <searchbox
+                    jcr:created="{Date}2023-03-06T19:41:56.306+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-06T21:06:10.030+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/custom/searchbox"
+                    button="Search"
+                    path="/content/crea2minds/us/en/search"
+                    placeholder="Search Here">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="3"/>
+                    </cq:responsive>
+                </searchbox>
+                <navigation
+                    jcr:created="{Date}2023-04-09T14:19:40.659+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-04-09T14:20:14.947+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="crea2minds/components/navigation"
+                    collectAllPages="true"
+                    disableShadowing="false"
+                    id="navigation11"
+                    navigationRoot="/content/crea2minds/us/en/homepage"
+                    structureStart="1"/>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

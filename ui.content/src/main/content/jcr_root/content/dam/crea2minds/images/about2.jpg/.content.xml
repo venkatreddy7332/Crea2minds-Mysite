@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:ns1_1_="http://xmp.gettyimages.com/gift/1.0/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="d8238ad8-b230-4d2a-aa23-c73958d996b1">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-24T15:48:03.967+05:30"
+        jcr:lastModified="{Date}2023-04-08T13:46:09.876+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2023-03-24T15:48:02.239+05:30"
+            dam:extracted="{Date}2023-04-08T13:46:07.649+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -30,6 +30,7 @@
             dc:rights="CGinspiration"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
+            ns1_1_:AssetID="{Long}184880319"
             photoshop:Credit="Getty Images/iStockphoto"
             tiff:ImageLength="{Long}1424"
             tiff:ImageWidth="{Long}2048"

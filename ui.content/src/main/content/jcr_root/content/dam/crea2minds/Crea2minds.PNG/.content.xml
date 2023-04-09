@@ -4,20 +4,13 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="215f158a-3784-4826-ac39-ec60b6799046">
     <jcr:content
-        cq:lastReplicated="{Date}2023-03-13T14:07:30.013+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T14:07:30.013+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-13T13:47:37.423+05:30"
+        jcr:lastModified="{Date}2023-04-08T13:25:24.621+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2023-03-13T13:47:25.763+05:30"
+            dam:extracted="{Date}2023-04-08T13:25:15.628+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -34,9 +27,7 @@
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}296"
             tiff:ImageWidth="{Long}344"/>
-        <related
-            jcr:mixinTypes="[]"
-            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
         <usages
             dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"

@@ -1,66 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastReplicated="{Date}2023-03-13T15:13:12.882+05:30"
-        cq:lastReplicated_publish="{Date}2023-03-13T15:13:12.882+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicatedBy_publish="admin"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:uuid="f919af44-9952-4c34-a560-f72e75d96848"
         sling:resourceType="crea2minds/components/page">
         <root
-            cq:lastReplicated="{Date}2023-03-13T15:13:26.789+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-13T15:13:26.789+05:30"
-            cq:lastReplicatedBy="admin"
-            cq:lastReplicatedBy_publish="admin"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive
-            cq:lastReplicated="{Date}2023-03-13T15:13:17.304+05:30"
-            cq:lastReplicated_publish="{Date}2023-03-13T15:13:17.304+05:30"
-            cq:lastReplicatedBy="admin"
-            cq:lastReplicatedBy_publish="admin"
-            cq:lastReplicationAction="Activate"
-            cq:lastReplicationAction_publish="Activate"
-            jcr:mixinTypes="[cq:ReplicationStatus]"
-            jcr:primaryType="nt:unstructured">
-            <breakpoints
-                cq:lastReplicated="{Date}2023-03-13T15:13:19.492+05:30"
-                cq:lastReplicated_publish="{Date}2023-03-13T15:13:19.492+05:30"
-                cq:lastReplicatedBy="admin"
-                cq:lastReplicatedBy_publish="admin"
-                cq:lastReplicationAction="Activate"
-                cq:lastReplicationAction_publish="Activate"
-                jcr:mixinTypes="[cq:ReplicationStatus]"
-                jcr:primaryType="nt:unstructured">
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
-                    cq:lastReplicated="{Date}2023-03-13T15:13:24.149+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-13T15:13:24.149+05:30"
-                    cq:lastReplicatedBy="admin"
-                    cq:lastReplicatedBy_publish="admin"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus]"
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
                     width="{Long}650"/>
                 <tablet
-                    cq:lastReplicated="{Date}2023-03-13T15:13:22.148+05:30"
-                    cq:lastReplicated_publish="{Date}2023-03-13T15:13:22.148+05:30"
-                    cq:lastReplicatedBy="admin"
-                    cq:lastReplicatedBy_publish="admin"
-                    cq:lastReplicationAction="Activate"
-                    cq:lastReplicationAction_publish="Activate"
-                    jcr:mixinTypes="[cq:ReplicationStatus]"
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"
                     width="{Long}1200"/>

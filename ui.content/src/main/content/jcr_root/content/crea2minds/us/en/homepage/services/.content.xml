@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-24T18:41:50.585+05:30"
+        cq:lastModified="{Date}2023-03-08T11:17:06.591+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-03-13T16:46:50.235+05:30"
         cq:lastReplicated_publish="{Date}2023-03-13T16:46:50.235+05:30"
@@ -11,16 +11,12 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:template="/conf/crea2minds/settings/wcm/templates/home-page"
-        jcr:description="Our Services 3d and 2d animations and video editing"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Services"
         jcr:uuid="74802a32-518e-4a03-bebf-44710fddd80b"
-        sling:resourceType="crea2minds/components/page"
-        pwaCachestrategy="staleWhileRevalidate"
-        pwaDisplay="standalone"
-        pwaOrientation="any">
+        sling:resourceType="crea2minds/components/page">
         <root
             jcr:lastModified="{Date}2023-03-06T18:45:28.246+05:30"
             jcr:lastModifiedBy="admin"
@@ -32,28 +28,11 @@
                 jcr:lastModified="{Date}2023-03-06T18:46:27.298+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <title
-                    jcr:created="{Date}2023-03-15T17:02:20.494+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2023-03-15T17:02:20.494+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="crea2minds/components/title">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="5"
-                            width="2"/>
-                    </cq:responsive>
-                </title>
-            </responsivegrid>
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
-        <image
-            jcr:primaryType="nt:unstructured"
-            fileReference="/content/dam/crea2minds/images/our-services1.jpg"/>
     </jcr:content>
     <_x0033_d-2d/>
     <graphics/>
     <videoedit/>
+    <header/>
 </jcr:root>
