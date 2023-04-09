@@ -2,6 +2,14 @@
 	color:red;
     text-align:center;
 }
+#Header-crea{
+ background-color: aquamarine;
+}
+#Footer-crea{
+ background-color: #4e4875;
+    color: white;
+
+}
 #login-username ,#change-password-username {
     font-family: Poppins-Regular;
     font-size: 15px;
@@ -57,7 +65,9 @@
     margin: 0 20px;
     color:green;
 }
-
+#footer-heading{
+text-align:center;
+}
 #title-db3ec91782{
     text-align:center;
 }
@@ -72,13 +82,7 @@
 #text-on-header{
 padding-top:60px;
 }
-#page-footer-experience {
-    background-color: #4e4875;
-    color: white;
-}
-#page-header-experience {
-    background-color: aquamarine;
-}
+
 #login-header-experience {
     background-color: aliceblue;
 }

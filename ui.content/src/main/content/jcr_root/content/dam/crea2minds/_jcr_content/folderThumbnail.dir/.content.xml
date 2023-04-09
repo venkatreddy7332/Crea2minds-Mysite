@@ -3,7 +3,6 @@
     jcr:primaryType="nt:file">
     <jcr:content
         dam:folderThumbnailPaths="[/content/dam/crea2minds/logo-template.png,/content/dam/crea2minds/Crea2minds.PNG,/content/dam/crea2minds/images/banner5.jpg]"
-        jcr:mixinTypes="[]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

@@ -2,8 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-03-15T13:27:57.922+05:30"
-        cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-03-09T00:10:30.478+05:30"
         cq:lastReplicated_publish="{Date}2023-03-09T00:10:30.478+05:30"
         cq:lastReplicatedBy="admin"
@@ -24,6 +22,43 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="crea2minds/components/container"
             layout="simple">
+            <navigation
+                cq:lastReplicated="{Date}2023-03-09T00:10:35.166+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-09T00:10:35.166+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="crea2minds/components/navigation"
+                collectAllPages="false"
+                navigationRoot="/content/crea2minds/us/en"
+                skipNavigationRoot="false"
+                structureDepth="1"/>
+            <languagenavigation
+                cq:lastReplicated="{Date}2023-03-09T00:10:37.965+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-09T00:10:37.965+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="crea2minds/components/languagenavigation"
+                navigationRoot="/content/crea2minds/us"
+                structureDepth="2"/>
+            <search
+                cq:lastReplicated="{Date}2023-03-09T00:10:40.671+05:30"
+                cq:lastReplicated_publish="{Date}2023-03-09T00:10:40.671+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_publish="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_publish="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="crea2minds/components/search"
+                searchRoot="/content/crea2minds/us"/>
             <logo/>
         </root>
     </jcr:content>
