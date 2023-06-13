@@ -1,0 +1,18 @@
+.card{  
+padding-left: 85px;
+  color:black;
+  display:inline-block;
+  border-radius:25px;
+  background-color:red;
+    margin:10px 0 10px 0;
+}
+.card-image{
+  float:left;
+}
+.card-text{
+width: 540px;
+  float:left;
+}
+.imm{
+  border-radius:25px;
+}

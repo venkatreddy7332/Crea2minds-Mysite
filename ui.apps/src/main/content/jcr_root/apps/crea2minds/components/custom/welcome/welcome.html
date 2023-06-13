@@ -5,7 +5,7 @@
 
 var accessable="${model.isAccessable @context ='scriptString'}";
 if(accessable == "false"){
- location.assign("${model.redirectpath @context ='scriptString'}");
+ location.assign("${model.redirectpath @context ='scriptString'}?accessible=false");
 }
 
 </script>

@@ -1,8 +1,15 @@
+
+.welcome.aem-GridColumn.aem-GridColumn--default--12 {
+    margin-top: 64px;
+}
+
+
 .welcome{
-  background-color:red;
+  background-color:#c894f7;
   width:100%;
-  height:60px;
+  height:50px;
 display:block;
+    padding-bottom:10px;
 }
 .welcome-text{
   margin:10px 10px 0 0;
@@ -18,3 +25,21 @@ display:block;
   display:inline;
   text-align:center;
 }
+
+@media only screen and (max-width: 600px) {
+
+.welcome.aem-GridColumn.aem-GridColumn--default--12 {
+    margin-top: 190px;
+}
+.aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--12 {
+    width: 91%;
+}
+
+.w-text {
+    left:0%;
+    }
+
+
+
+
+            }

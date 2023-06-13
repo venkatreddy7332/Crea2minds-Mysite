@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:ns1_1_="http://xmp.gettyimages.com/gift/1.0/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d8238ad8-b230-4d2a-aa23-c73958d996b1">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-04-08T13:46:09.876+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2023-04-08T13:46:07.649+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}4.746666431427002"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}6.826666831970215"
+            dam:Progressive="no"
+            dam:sha1="64ffd206656c509733a559fac6249f77b89826ce"
+            dam:size="{Long}144837"
+            dc:creator="[CGinspiration]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:description=" http://cginspiration.com//Istock/V2/WhiteCharacters.jpg"
+            dc:format="image/jpeg"
+            dc:Rights="CGinspiration"
+            dc:rights="CGinspiration"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            ns1_1_:AssetID="{Long}184880319"
+            photoshop:Credit="Getty Images/iStockphoto"
+            tiff:ImageLength="{Long}1424"
+            tiff:ImageWidth="{Long}2048"
+            xmpRights:WebStatement="https://www.istockphoto.com/legal/license-agreement?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl"
+            AssetID="{Long}184880319">
+            <plus:Licensor
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    plus:LicensorURL="https://www.istockphoto.com/photo/license-gm184880319-?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl"
+                    xmpNodeType="xmpStruct"/>
+            </plus:Licensor>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

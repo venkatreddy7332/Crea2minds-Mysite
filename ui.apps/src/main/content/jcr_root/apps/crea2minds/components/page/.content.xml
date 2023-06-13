@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    cq:lastReplicated="{Date}2023-03-09T00:20:23.463+05:30"
-    cq:lastReplicated_publish="{Date}2023-03-09T00:20:23.463+05:30"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:lastReplicated="{Date}2023-03-13T16:44:25.578+05:30"
+    cq:lastReplicated_publish="{Date}2023-03-13T16:44:25.578+05:30"
     cq:lastReplicatedBy="admin"
     cq:lastReplicatedBy_publish="admin"
     cq:lastReplicationAction="Activate"
@@ -9,5 +9,5 @@
     jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="cq:Component"
     jcr:title="Crea2minds Page"
-    sling:resourceSuperType="core/wcm/components/page/v3/page"
+    sling:resourceSuperType="core/wcm/components/page/v2/page"
     componentGroup=".hidden"/>

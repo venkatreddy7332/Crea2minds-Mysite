@@ -1,0 +1,13 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "operation":"add",
+  "aces":[
+    "type=allow;privileges=jcr:read,rep:write;path=/content",
+    "type=allow;privileges=jcr:read,rep:write;path=/apps",
+    "type=allow;privileges=jcr:read,rep:write;path=/conf",
+    "type=allow;privileges=jcr:read,rep:write;path=/libs",
+    "type=allow;privileges=jcr:read,rep:write;path=/etc",
+    "type=allow;privileges=jcr:read,rep:write;path=/home"
+  ],
+  "principalName":"crea2minds"
+}

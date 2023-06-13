@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:exif="http://ns.adobe.com/exif/1.0/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="6db886bd-e150-4333-9b1e-438282cbc07c">
@@ -11,7 +11,7 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-03-09T10:39:53.938+05:30"
+        jcr:lastModified="{Date}2023-04-08T13:25:40.343+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -23,7 +23,7 @@
             cq:lastReplicationAction="Activate"
             cq:lastReplicationAction_publish="Activate"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2023-03-09T10:39:51.794+05:30"
+            dam:extracted="{Date}2023-04-08T13:25:35.995+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -49,9 +49,9 @@
             xmp:CreateDate="{Date}2020-12-28T12:26:32.000-06:00"
             xmp:CreatorTool="Adobe Photoshop CC 2019 Windows"
             xmp:MetadataDate="{Date}2020-12-28T12:26:52.000-06:00"
-            xmp:ModifyDate="{Date}2020-12-28T12:26:52.000-06:00"
             xmpMM:DocumentID="xmp.did:4199FCEB493A11EBBC8DB9520E71C058"
-            xmpMM:InstanceID="xmp.iid:4199FCEA493A11EBBC8DB9520E71C058">
+            xmpMM:InstanceID="xmp.iid:4199FCEA493A11EBBC8DB9520E71C058"
+            xmp:ModifyDate="{Date}2020-12-28T12:26:52.000-06:00">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="6EA703DC3C118BB7945021AD2ED1185D"
