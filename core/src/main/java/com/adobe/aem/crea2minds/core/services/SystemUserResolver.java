@@ -1,12 +1,17 @@
 package com.adobe.aem.crea2minds.core.services;
 
 
-import org.apache.sling.api.resource.LoginException;
-import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
+import com.day.cq.dam.api.Asset;
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
+import org.apache.sling.api.resource.*;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 
+import javax.jcr.Credentials;
+import javax.jcr.Node;
+import javax.jcr.Session;
+import java.net.CacheRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,11 +21,14 @@ public class SystemUserResolver {
     @Reference
     private ResourceResolverFactory factory;
 
-    private  ResourceResolver resolver;
+
     public ResourceResolver getResourceResolver() throws LoginException {
+        ResourceResolver resolver;
         Map<String,Object> map=new HashMap<>();
         map.put(factory.SUBSERVICE,"crea2minds");
         resolver= factory.getServiceResourceResolver(map);
+
+        resolver.adaptTo(Session.class).
         return resolver;
     }
 }
