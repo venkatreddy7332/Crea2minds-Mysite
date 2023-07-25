@@ -64,20 +64,18 @@ public class UserGroupsService {
         UserManagementService ums = systemresolver.getResourceResolver().adaptTo(UserManagementService.class);
         UserManager userManager = ums.getUserManager(session);
        User user= userManager.createUser(username,password);
-       log.info(user.toString()+"==has created");
+       log.info(user+"==has created");
         return status;
     }
 
     public String changepassword(String userid,String newpassword) throws RepositoryException {
         String status="";
         ResourceResolver resolver= null;
-        try {
-            resolver = systemresolver.getResourceResolver();
-        } catch (LoginException e) {
-            throw new RuntimeException(e);
-        }
+        resolver = systemresolver.getResourceResolver();
         UserManager userManager = resolver.adaptTo(UserManager.class);
       User user =  (User) userManager.getAuthorizable(userid);
+      String aa =user.getCredentials().toString();
+      log.info(aa);
       user.changePassword(newpassword);
         return status;
     }

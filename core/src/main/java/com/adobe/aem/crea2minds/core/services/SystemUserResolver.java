@@ -22,13 +22,15 @@ public class SystemUserResolver {
     private ResourceResolverFactory factory;
 
 
-    public ResourceResolver getResourceResolver() throws LoginException {
+    public ResourceResolver getResourceResolver(){
         ResourceResolver resolver;
         Map<String,Object> map=new HashMap<>();
         map.put(factory.SUBSERVICE,"crea2minds");
-        resolver= factory.getServiceResourceResolver(map);
-
-        resolver.adaptTo(Session.class).
+        try {
+            resolver= factory.getServiceResourceResolver(map);
+        } catch (LoginException e) {
+            throw new RuntimeException(e);
+        }
         return resolver;
     }
 }

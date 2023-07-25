@@ -1,5 +1,6 @@
 package com.adobe.aem.crea2minds.core.servlets;
 
+import com.day.cq.tagging.Tag;
 import com.day.cq.wcm.api.Page;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

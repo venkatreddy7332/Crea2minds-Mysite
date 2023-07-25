@@ -40,8 +40,6 @@ public class Login extends SlingAllMethodsServlet {
                 session.logout();
 
             }
-        } catch (LoginException e) {
-            throw new RuntimeException(e);
         } catch (RepositoryException e) {
             throw new RuntimeException(e);
         }
